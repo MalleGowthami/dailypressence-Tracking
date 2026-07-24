@@ -1,0 +1,32 @@
+# Environment variables
+backend/.env
+.env.local
+.env*.local
+
+# Dependency directories
+backend/node_modules/
+backend/dist/
+
+# Log files
+*.log
+logs/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS files
+.DS_Store
+
+# Debug files
+debug.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Build files
+build/
